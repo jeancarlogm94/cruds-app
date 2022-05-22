@@ -156,8 +156,14 @@ input {
   }
 }
 
-@media all and (max-width: 385px) {
+@media all and (max-width: 382px) {
   input {
-    width: 90px;
+    width: 120px;
+  }
+}
+
+@media all and (max-width: 371px) {
+  input {
+    width: 115px;
   }
 }
