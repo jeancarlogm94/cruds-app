@@ -7,18 +7,7 @@
   box-sizing: border-box;
 }
 
-.App {
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-justify-content: space-around;
-  justify-content: space-around;
-
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-
-  margin: 0 auto;
-  padding: 5%;
+body {
   background-image: linear-gradient(
     to right,
     #d16ba5,
@@ -34,6 +23,20 @@
     #46eefa,
     #5ffbf1
   );
+}
+
+.App {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  margin: 0 auto;
+  padding: 5%;
 }
 
 h2 {
